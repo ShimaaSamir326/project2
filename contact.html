@@ -8,22 +8,30 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-                <h1>Hi</h1>
-                <h2>this is sigma's web <br>welcome,meow</h2>
-                <nav>
-                    <img src="sigmaa.jpg" alt="this is sigmaa">
-                    <br>
-                    <a href="index.html" >Home</a>
-                    <br>
-                    <a href="about.html">about</a>
-                    <br>
-                    <a href="contact.html" target="_blank">contact</a>
-                </nav>
-                <hr>
+          <header>
+            <nav class="navbar">
+                <a class="card" href="index.html">Home</a>
+                <a class="card" href="about.html">about</a>
+                <a class="card" href="contact.html"target="_blank">contact</a>
+            </nav>
+            <div class="head">
+            <h2>This is Sigma's web. <br>Welcome,meow!</h2>
+            <img src="sigmaa.jpg" alt="this is sigmaa">
+            
+             <a href="#Sigma-modal"><div class="card">Open</div></a>
+        <div id="Sigma-modal" class="modal">
+            <div class="modal-content">
+                <p>Sigma is a cool cat!</p>
+                <a href="#">Close</a>
+            </div>
+        </div>
+        </div>
         </header>
-        <h1>Make frined with sigma</h1>
+        <div class="alert" role="status">
+          <strong>Welcome!</strong> Feel free to contact Sigma.
+        </div>
         <form>
+            <h2>Make friend with sigma</h2>
             <p> what's your gender?</p>
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">male</label>
@@ -41,14 +49,14 @@
             <option value="egypt">egypt</option>
             <option value="usa">usa</option>
             <option value="italy">italy</option> 
-            <option value="chaina">chaina</option> 
+            <option value="china">china</option> 
             </select>
             <br><br>
             <label for="email">sent me your email's username</label>
             <input type="email" id="email" name="email" required>
             <br><br>
             <label for="number">sent me your phone nmber</label>
-            <input type="number" id="number" name="number" required>
+            <input type="tel" id="number" name="number" required>
             <br><br>
             <label for="date">when do you want meet ?</label>
             <input type="date" id="date" name="date" required>
@@ -65,8 +73,9 @@
             <textarea id="msg" name="msg" rows="4" cols="30"></textarea>
             <br><br>
             <button type="submit">Send</button>
-            
-
         </form>
+         <footer>
+            <p>&copy; 2026 shimaa</p>
+        </footer>
     </body>
 </html>

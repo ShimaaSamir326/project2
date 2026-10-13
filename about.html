@@ -8,28 +8,34 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <h1>Hi</h1>
-            <h2>this is sigma's web <br>welcome,meow</h2>
-            <nav>
-                <img src="sigmaa.jpg" alt="this is sigmaa">
-                <br>
-                <a href="index.html">Home</a>
-                <br>
-                <a href="about.html" target="_blank">about</a>
-                <br>
-                <a href="contact.html">contact</a>
+         <header>
+            <nav class="navbar">
+                <a class="card" href="index.html">Home</a>
+                <a class="card" href="about.html" target="_blank">about</a>
+                <a class="card" href="contact.html">contact</a>
             </nav>
-            <hr>
+            <div class="head">
+            <h2>This is Sigma's web. <br>Welcome,meow!</h2>
+            <img src="sigmaa.jpg" alt="this is sigmaa">
+             <a href="#Sigma-modal"><div class="card">Open</div></a>
+        <div id="Sigma-modal" class="modal">
+            <div class="modal-content">
+                <p>Sigma is a cool cat!</p>
+                <a href="#">Close</a>
+            </div>
+        </div>
+            </div>
         </header>
         <main>
-            <h2>I am sigma</h2>
+            <div class="card">
             <h3>My hobbies</h3>
             <ul>
-                <li>mouse hunting</li>
-                <li>watching tom & jerry</li>
-                <li>sleping</li>
+                <li>Mouse hunting</li>
+                <li>Watching Tom & Jerry</li>
+                <li>Sleeping</li>
             </ul>
+            </div>
+            <div class="card">
             <h3>My Schedule</h3>
             <table> 
             <thead> 
@@ -53,7 +59,7 @@
                 <tr>
                     <td>monday</td>
                     <td>modarag moshrafa</td>
-                    <td>haveing an exam</td>
+                    <td>having an exam</td>
                 </tr>
                 <tr>
                     <td>tuesday</td>
@@ -68,22 +74,23 @@
                 <tr>
                     <td>thursday</td>
                     <td>main hall</td>
-                    <td>looking to my grandfather moshrafa</td>
+                    <td>looking to my statue of Moshrafa</td>
                 </tr>
             </tbody>
             </table>
             <p>friday is my holiday</p>
-            <hr>
-            <h2>Contact Sigma</h2>
-            <h3>Sigma's email :</h3>
+            </div>
+            <div class="card">
+            <h3>Contact Sigma</h3>
+            <h4>Sigma's email :</h4>
             <a href="mailto:sigma.meow@gmail.com">mail me</a>
-            <h3>Sigma's phone :</h3>
+            <h4>Sigma's phone :</h4>
             <a href="tel:+201104736797">call me</a>
-            <hr>
+            </div>
         </main>
-        <hr>
         <footer>
             <p>&copy; 2026 shimaa</p>
         </footer>
+
     </body>
 </html>
